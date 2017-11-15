@@ -10,7 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Artillery.LoadTest", "Artillery.LoadTest", "{2E1874EA-8459-4BD4-9883-3641FF4697A6}"
 	ProjectSection(SolutionItems) = preProject
 		Artillery.LoadTests\proc-functions.js = Artillery.LoadTests\proc-functions.js
-		runLoadScripts.txt = runLoadScripts.txt
+		Artillery.LoadTests\runLoadScripts.txt = Artillery.LoadTests\runLoadScripts.txt
 		Artillery.LoadTests\stressCommentDb-Dapper.yml = Artillery.LoadTests\stressCommentDb-Dapper.yml
 		Artillery.LoadTests\stressCommentDb.yml = Artillery.LoadTests\stressCommentDb.yml
 		Artillery.LoadTests\stressCommentLinq.yml = Artillery.LoadTests\stressCommentLinq.yml
