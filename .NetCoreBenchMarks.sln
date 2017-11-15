@@ -23,6 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBScripts", "DBScripts", "{
 		DBScripts\02-DataPrep-CreateFnsAndIndexes.sql = DBScripts\02-DataPrep-CreateFnsAndIndexes.sql
 		DBScripts\03-DataPrep-CopyUsers.sql = DBScripts\03-DataPrep-CopyUsers.sql
 		DBScripts\04-DataPrep-FillData.sql = DBScripts\04-DataPrep-FillData.sql
+		DBScripts\05-Comments-StoredProc.sql = DBScripts\05-Comments-StoredProc.sql
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Output", "Output", "{0298C6B0-DB0C-4EB1-9BB2-12E0D311EE9F}"
