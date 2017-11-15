@@ -1,0 +1,36 @@
+config:
+    environments:
+        AzCore11:
+          target: "http://comments.avantprise.com"
+        AzCore2:
+          target: "http://comcore2.avantprise.com"    
+    processor: "./proc-functions.js"                    
+    phases:
+        - duration: 30
+          arrivalCount: 10
+        - duration: 60
+          arrivalRate: 5
+          name: "High load phase"
+    payload:
+        path: "./testData.csv"
+        fields:
+            - "SnapShotId"
+            - "CommentType"
+            - "CourseId"
+            - "UserId"      
+            - "Skip"
+            - "Size"
+            - "SkipThread"
+            - "SizeThread"
+        #order: "sequence"
+# scenario definitions      
+scenarios:
+  - name: "Stress Test JsonFromDb API - where JSON is returned as result from db"
+    flow:
+      #-- "Stress Test JsonFromDb API"
+    - get:
+          url: "/api/comments/method/jsonfromdb?ratingType={{CommentType}}&courseId={{CourseId}}&skip={{Skip}}&size={{Size}}&skipThread={{SkipThread}}&sizeThread={{SizeThread}}"
+          afterResponse: "logResponse"      
+    - log: "jsonfromdb api call : ratingType={{CommentType}}, courseId={{CourseId}}, skip={{Skip}}, size={{Size}}, skipThread={{SkipThread}}, sizeThread={{SizeThread}}"     
+    
+# Json from db or Linq? - triage asp.net core µService performance

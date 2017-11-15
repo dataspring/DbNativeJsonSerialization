@@ -1,0 +1,43 @@
+config:
+  environments:
+      AzCore11:
+        target: "http://comments.avantprise.com"
+      AzCore2:
+        target: "http://comcore2.avantprise.com"
+      local:
+        target: "http://localhost:43182"  
+  #target: "http://comments.avantprise.com"
+  phases:
+      - duration: 30
+        arrivalCount: 10
+        name: "Warm up phase"
+      - duration: 60
+        arrivalRate: 1
+        name: "High load phase"
+  processor: "./proc-functions.js"           
+  payload:
+      path: "./testData.csv"
+      fields:
+          - "SnapShotId"
+          - "CommentType"
+          - "CourseId"
+          - "UserId"      
+          - "Skip"
+          - "Size"
+          - "SkipThread"
+          - "SizeThread"
+      #order: "sequence"          
+# scenario definitions      
+scenarios:
+  - name: "Stress Test JsonFromLinq API - where JSON is returned from LINQ"
+    flow:
+    - get:
+          #----------- with user ID in the query -----------------------------
+          #url: "/api/comments/method/jsonfromlinq?ratingType={{CommentType}}&courseId={{CourseId}}&userId={{UserId}}&skip={{Skip}}&size={{Size}}&skipThread={{SkipThread}}&sizeThread={{SizeThread}}"
+          #----------- just for a given course ID -----------------------------
+          url: "/api/comments/method/jsonfromlinq?ratingType={{CommentType}}&courseId={{CourseId}}&skip={{Skip}}&size={{Size}}&skipThread={{SkipThread}}&sizeThread={{SizeThread}}"
+          afterResponse: "logResponse"
+          #think: 5
+    - log: "jsonfromLinq api call : ratingType={{CommentType}}, courseId={{CourseId}}, skip={{Skip}}, size={{Size}}, skipThread={{SkipThread}}, sizeThread={{SizeThread}}"     
+      #userId={{UserId}}, 
+            

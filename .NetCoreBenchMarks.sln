@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core2Service", "Core2Service\Core2Service.csproj", "{10B86140-BE88-4ED5-B30C-77A4D2587679}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core1dot1Service", "Core1dot1Service\Core1dot1Service.csproj", "{9A4A27B8-7BDA-4099-A153-071C32E82972}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Artillery.LoadTest", "Artillery.LoadTest", "{2E1874EA-8459-4BD4-9883-3641FF4697A6}"
+	ProjectSection(SolutionItems) = preProject
+		Artillery.LoadTests\proc-functions.js = Artillery.LoadTests\proc-functions.js
+		runLoadScripts.txt = runLoadScripts.txt
+		Artillery.LoadTests\stressCommentDb-Dapper.yml = Artillery.LoadTests\stressCommentDb-Dapper.yml
+		Artillery.LoadTests\stressCommentDb.yml = Artillery.LoadTests\stressCommentDb.yml
+		Artillery.LoadTests\stressCommentLinq.yml = Artillery.LoadTests\stressCommentLinq.yml
+		Artillery.LoadTests\testData.csv = Artillery.LoadTests\testData.csv
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBScripts", "DBScripts", "{97F9E6B7-80DF-47C7-98DC-03D8379DD860}"
+	ProjectSection(SolutionItems) = preProject
+		DBScripts\01-DataPrep-CreateDb.sql = DBScripts\01-DataPrep-CreateDb.sql
+		DBScripts\02-DataPrep-CreateFnsAndIndexes.sql = DBScripts\02-DataPrep-CreateFnsAndIndexes.sql
+		DBScripts\03-DataPrep-CopyUsers.sql = DBScripts\03-DataPrep-CopyUsers.sql
+		DBScripts\04-DataPrep-FillData.sql = DBScripts\04-DataPrep-FillData.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Output", "Output", "{0298C6B0-DB0C-4EB1-9BB2-12E0D311EE9F}"
+	ProjectSection(SolutionItems) = preProject
+		Artillery.LoadTests\Output\Db-AzCor2-Heavy.Console.txt = Artillery.LoadTests\Output\Db-AzCor2-Heavy.Console.txt
+		Artillery.LoadTests\Output\Db-AzCor2.Console.txt = Artillery.LoadTests\Output\Db-AzCor2.Console.txt
+		Artillery.LoadTests\Output\Db-Dapper-AzCor2-Heavy.Console.txt = Artillery.LoadTests\Output\Db-Dapper-AzCor2-Heavy.Console.txt
+		Artillery.LoadTests\Output\Db-Dapper-AzCor2.Console.txt = Artillery.LoadTests\Output\Db-Dapper-AzCor2.Console.txt
+		Artillery.LoadTests\Output\Db-Dapper-Heavy.Console.txt = Artillery.LoadTests\Output\Db-Dapper-Heavy.Console.txt
+		Artillery.LoadTests\Output\Db-Dapper.Console.txt = Artillery.LoadTests\Output\Db-Dapper.Console.txt
+		Artillery.LoadTests\Output\Db-Heavy.Console.txt = Artillery.LoadTests\Output\Db-Heavy.Console.txt
+		Artillery.LoadTests\Output\Db.Console.txt = Artillery.LoadTests\Output\Db.Console.txt
+		Artillery.LoadTests\Output\Linq-AzCore2-console.txt = Artillery.LoadTests\Output\Linq-AzCore2-console.txt
+		Artillery.LoadTests\Output\Linq-console.txt = Artillery.LoadTests\Output\Linq-console.txt
+		Artillery.LoadTests\Output\Linq-Local-console.txt = Artillery.LoadTests\Output\Linq-Local-console.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Report", "Report", "{0A1E59E1-AE08-44A4-A163-B5169DF175FC}"
+	ProjectSection(SolutionItems) = preProject
+		Artillery.LoadTests\Reports\stressCommentDb-AzCor2-Heavy.json = Artillery.LoadTests\Reports\stressCommentDb-AzCor2-Heavy.json
+		Artillery.LoadTests\Reports\stressCommentDb-AzCor2.json = Artillery.LoadTests\Reports\stressCommentDb-AzCor2.json
+		Artillery.LoadTests\Reports\stressCommentDb-Dapper-AzCor2-Heavy.json = Artillery.LoadTests\Reports\stressCommentDb-Dapper-AzCor2-Heavy.json
+		Artillery.LoadTests\Reports\stressCommentDb-Dapper-AzCor2.json = Artillery.LoadTests\Reports\stressCommentDb-Dapper-AzCor2.json
+		Artillery.LoadTests\Reports\stressCommentDb-Dapper-AzCor2.json.html = Artillery.LoadTests\Reports\stressCommentDb-Dapper-AzCor2.json.html
+		Artillery.LoadTests\Reports\stressCommentDb-Dapper-Heavy.json = Artillery.LoadTests\Reports\stressCommentDb-Dapper-Heavy.json
+		Artillery.LoadTests\Reports\stressCommentDb-Dapper.json = Artillery.LoadTests\Reports\stressCommentDb-Dapper.json
+		Artillery.LoadTests\Reports\stressCommentDb-Heavy.json = Artillery.LoadTests\Reports\stressCommentDb-Heavy.json
+		Artillery.LoadTests\Reports\stressCommentDb.json = Artillery.LoadTests\Reports\stressCommentDb.json
+		Artillery.LoadTests\Reports\stressCommentLinq-AzCor2.json = Artillery.LoadTests\Reports\stressCommentLinq-AzCor2.json
+		Artillery.LoadTests\Reports\stressCommentLinq-Local.json = Artillery.LoadTests\Reports\stressCommentLinq-Local.json
+		Artillery.LoadTests\Reports\stressCommentLinq.json = Artillery.LoadTests\Reports\stressCommentLinq.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10B86140-BE88-4ED5-B30C-77A4D2587679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10B86140-BE88-4ED5-B30C-77A4D2587679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10B86140-BE88-4ED5-B30C-77A4D2587679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10B86140-BE88-4ED5-B30C-77A4D2587679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A4A27B8-7BDA-4099-A153-071C32E82972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A4A27B8-7BDA-4099-A153-071C32E82972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A4A27B8-7BDA-4099-A153-071C32E82972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A4A27B8-7BDA-4099-A153-071C32E82972}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0298C6B0-DB0C-4EB1-9BB2-12E0D311EE9F} = {2E1874EA-8459-4BD4-9883-3641FF4697A6}
+		{0A1E59E1-AE08-44A4-A163-B5169DF175FC} = {2E1874EA-8459-4BD4-9883-3641FF4697A6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7EBFBD7-FB5C-446A-BE8B-ED429386E066}
+	EndGlobalSection
+EndGlobal

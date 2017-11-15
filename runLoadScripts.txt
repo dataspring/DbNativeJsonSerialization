@@ -1,0 +1,24 @@
+
+REM -------------- LINQ on LAPTOP ------------------------------
+artillery run -e local -o  "./Reports/stressCommentLinq-Local.json" stressCommentLinq.yml > "./Output/Linq-Local-console.txt"
+
+REM -------------- LINQ on Azure ------------------------------
+artillery run -e AzCore11 -o  "./Reports/stressCommentLinq-AzCor11.json" stressCommentLinq.yml > "./Output/Linq-AzCore11-console
+.txt"
+
+REM -------------- SP on Azure with .NET Core1.1 and DAPPER ------------------------------
+artillery run -e AzCore11  -o  "./Reports/stressCommentDb-Dapper.json" stressCommentDb-Dapper.yml > "./Output/Db-Dapper.Console.
+txt"
+REM -------------- SP on Azure with .NET Core1.1 and EF Core1.1 ------------------------------
+artillery run -e AzCore11  -o  "./Reports/stressCommentDb.json" stressCommentDb.yml > "./Output/Db.Console.txt"
+
+REM -------------- LINQ with .NET Core2 ------------------------------
+artillery run -e AzCore2 -o  "./Reports/stressCommentLinq-AzCor2.json" stressCommentLinq.yml > "./Output/Linq-AzCore2-console.tx
+t"
+
+REM -------------- SP on Azure with .NET Core2 and DAPPER ------------------------------
+artillery run -e AzCore2  -o  "./Reports/stressCommentDb-Dapper-AzCor2.json" stressCommentDb-Dapper.yml > "./Output/Db-Dapper-Az
+Cor2.Console.txt"
+
+REM -------------- SP on Azure with .NET Core2 and EF Core2 ------------------------------
+artillery run -e AzCore2  -o  "./Reports/stressCommentDb-AzCor2.json" stressCommentDb.yml > "./Output/Db-AzCor2.Console.txt"

@@ -1,0 +1,916 @@
+{
+  "aggregate": {
+    "timestamp": "2017-11-14T15:02:35.893Z",
+    "scenariosCreated": 70,
+    "scenariosCompleted": 70,
+    "requestsCompleted": 70,
+    "latency": {
+      "min": 29.1,
+      "max": 2749.7,
+      "median": 169.9,
+      "p95": 347.2,
+      "p99": 2496.2
+    },
+    "rps": {
+      "count": 70,
+      "mean": 0.8
+    },
+    "scenarioDuration": {
+      "min": 36.3,
+      "max": 2864.4,
+      "median": 177,
+      "p95": 357.3,
+      "p99": 2590.1
+    },
+    "scenarioCounts": {
+      "Stress Test JsonFromLinq API - where JSON is returned from LINQ": 70
+    },
+    "errors": {},
+    "codes": {
+      "200": 70
+    },
+    "matches": 0,
+    "customStats": {
+      "response_bytes": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      }
+    },
+    "phases": [
+      {
+        "duration": 30,
+        "arrivalCount": 10,
+        "name": "Warm up phase"
+      },
+      {
+        "duration": 60,
+        "arrivalRate": 1,
+        "name": "High load phase"
+      }
+    ]
+  },
+  "intermediate": [
+    {
+      "timestamp": "2017-11-14T15:01:10.603Z",
+      "scenariosCreated": 1,
+      "scenariosCompleted": 0,
+      "requestsCompleted": 0,
+      "latency": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "rps": {
+        "count": 1,
+        "mean": 0.46
+      },
+      "scenarioDuration": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "Stress Test JsonFromLinq API - where JSON is returned from LINQ": 1
+      },
+      "errors": {},
+      "codes": {},
+      "matches": 0,
+      "latencies": [],
+      "customStats": {},
+      "concurrency": 1,
+      "pendingRequests": 2
+    },
+    {
+      "timestamp": "2017-11-14T15:01:20.611Z",
+      "scenariosCreated": 4,
+      "scenariosCompleted": 4,
+      "requestsCompleted": 5,
+      "latency": {
+        "min": 29.1,
+        "max": 2749.7,
+        "median": 276.8,
+        "p95": null,
+        "p99": null
+      },
+      "rps": {
+        "count": 4,
+        "mean": 0.43
+      },
+      "scenarioDuration": {
+        "min": 277.3,
+        "max": 2864.4,
+        "median": 889,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "Stress Test JsonFromLinq API - where JSON is returned from LINQ": 4
+      },
+      "errors": {},
+      "codes": {
+        "200": 5
+      },
+      "matches": 0,
+      "latencies": [
+        [
+          1510671671165,
+          "2c54f83c-bfaf-4d49-85c9-687731141684",
+          2749710975,
+          200
+        ],
+        [
+          1510671672875,
+          "1e14fd49-7a77-455b-b3a2-c1af21b26993",
+          1481983565,
+          200
+        ],
+        [
+          1510671674657,
+          "636e3c67-fcad-4564-9339-4a6df2d8e629",
+          276761902,
+          200
+        ],
+        [
+          1510671677626,
+          "529875a7-bf8e-447b-86dd-2906276520ce",
+          263843637,
+          200
+        ],
+        [
+          1510671680365,
+          "7d785779-eb7f-4282-b016-5b9ae54b85db",
+          29066712,
+          200
+        ]
+      ],
+      "customStats": {
+        "response_bytes": {
+          "min": null,
+          "max": null,
+          "median": null,
+          "p95": null,
+          "p99": null
+        }
+      },
+      "concurrency": 1,
+      "pendingRequests": 1
+    },
+    {
+      "timestamp": "2017-11-14T15:01:30.621Z",
+      "scenariosCreated": 3,
+      "scenariosCompleted": 3,
+      "requestsCompleted": 2,
+      "latency": {
+        "min": 112.1,
+        "max": 155.5,
+        "median": 133.8,
+        "p95": null,
+        "p99": null
+      },
+      "rps": {
+        "count": 3,
+        "mean": 0.41
+      },
+      "scenarioDuration": {
+        "min": 36.3,
+        "max": 173.3,
+        "median": 147,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "Stress Test JsonFromLinq API - where JSON is returned from LINQ": 3
+      },
+      "errors": {},
+      "codes": {
+        "200": 2
+      },
+      "matches": 0,
+      "latencies": [
+        [
+          1510671683453,
+          "d80b6a6d-dafb-42b0-99fa-cb85fc9336ee",
+          112082966,
+          200
+        ],
+        [
+          1510671686478,
+          "b1559d49-4724-4a14-87ab-aa1d75a933e5",
+          155547965,
+          200
+        ]
+      ],
+      "customStats": {
+        "response_bytes": {
+          "min": null,
+          "max": null,
+          "median": null,
+          "p95": null,
+          "p99": null
+        }
+      },
+      "concurrency": 1,
+      "pendingRequests": 4
+    },
+    {
+      "timestamp": "2017-11-14T15:01:40.632Z",
+      "scenariosCreated": 7,
+      "scenariosCompleted": 8,
+      "requestsCompleted": 8,
+      "latency": {
+        "min": 37.6,
+        "max": 1422.7,
+        "median": 150.2,
+        "p95": null,
+        "p99": null
+      },
+      "rps": {
+        "count": 7,
+        "mean": 0.84
+      },
+      "scenarioDuration": {
+        "min": 55.2,
+        "max": 1451.7,
+        "median": 161.7,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "Stress Test JsonFromLinq API - where JSON is returned from LINQ": 7
+      },
+      "errors": {},
+      "codes": {
+        "200": 8
+      },
+      "matches": 0,
+      "latencies": [
+        [
+          1510671690745,
+          "3bab2385-060b-43b0-93fe-d7ab2b515fea",
+          1422720316,
+          200
+        ],
+        [
+          1510671692641,
+          "90b60b98-e03e-4a19-8118-0a29212f3043",
+          331699221,
+          200
+        ],
+        [
+          1510671695531,
+          "dbed3a4d-baf2-4df9-9077-e86d01881b35",
+          229088800,
+          200
+        ],
+        [
+          1510671696442,
+          "e05f1906-72f8-4d28-aaf7-a262239c4f15",
+          148096130,
+          200
+        ],
+        [
+          1510671697337,
+          "43a5c626-5153-4b15-ac75-cd28707bdd74",
+          37623328,
+          200
+        ],
+        [
+          1510671698398,
+          "48ebdfb5-9f5b-4622-833a-4ffac63e16ca",
+          114492055,
+          200
+        ],
+        [
+          1510671699454,
+          "d9b0c5ea-a3ab-4904-8a1c-dc43a9464b7d",
+          152330099,
+          200
+        ],
+        [
+          1510671700337,
+          "3c6a24e9-ff2d-4df7-8af7-d7993c792373",
+          51578635,
+          200
+        ]
+      ],
+      "customStats": {
+        "response_bytes": {
+          "min": null,
+          "max": null,
+          "median": null,
+          "p95": null,
+          "p99": null
+        }
+      },
+      "concurrency": 1,
+      "pendingRequests": 2
+    },
+    {
+      "timestamp": "2017-11-14T15:01:50.652Z",
+      "scenariosCreated": 10,
+      "scenariosCompleted": 10,
+      "requestsCompleted": 10,
+      "latency": {
+        "min": 86.8,
+        "max": 246.7,
+        "median": 212.1,
+        "p95": 246.7,
+        "p99": null
+      },
+      "rps": {
+        "count": 10,
+        "mean": 1.07
+      },
+      "scenarioDuration": {
+        "min": 98,
+        "max": 256.5,
+        "median": 221.4,
+        "p95": 256.5,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "Stress Test JsonFromLinq API - where JSON is returned from LINQ": 10
+      },
+      "errors": {},
+      "codes": {
+        "200": 10
+      },
+      "matches": 0,
+      "latencies": [
+        [
+          1510671701383,
+          "b543ef66-80c1-4054-b082-2e34b3860cfc",
+          86842140,
+          200
+        ],
+        [
+          1510671702503,
+          "6a2cb380-c038-4902-a086-57f41c824615",
+          210181888,
+          200
+        ],
+        [
+          1510671703425,
+          "6ff3e6bd-4127-4b19-b624-e20216be9b09",
+          131032985,
+          200
+        ],
+        [
+          1510671704537,
+          "436c8657-449b-4460-9c57-113fd38607e4",
+          246712341,
+          200
+        ],
+        [
+          1510671705522,
+          "50028bd0-4567-4d15-b141-4843b8d64a9e",
+          238532608,
+          200
+        ],
+        [
+          1510671706534,
+          "0ff2ea45-9d59-4e08-ab78-c5869a47b1e3",
+          239825419,
+          200
+        ],
+        [
+          1510671707463,
+          "4452b990-e0ed-4a17-ab77-a95273678459",
+          169886312,
+          200
+        ],
+        [
+          1510671708511,
+          "21ae6399-06a7-42aa-bd24-8d710ea3f194",
+          215889310,
+          200
+        ],
+        [
+          1510671709392,
+          "70894064-2206-4b89-935b-90594b53bbb6",
+          98060742,
+          200
+        ],
+        [
+          1510671710508,
+          "10fc0cda-9942-46b9-b01e-0f06150be911",
+          214101378,
+          200
+        ]
+      ],
+      "customStats": {
+        "response_bytes": {
+          "min": null,
+          "max": null,
+          "median": null,
+          "p95": null,
+          "p99": null
+        }
+      },
+      "concurrency": 1,
+      "pendingRequests": 1
+    },
+    {
+      "timestamp": "2017-11-14T15:02:00.661Z",
+      "scenariosCreated": 10,
+      "scenariosCompleted": 10,
+      "requestsCompleted": 10,
+      "latency": {
+        "min": 59.7,
+        "max": 267.3,
+        "median": 112.9,
+        "p95": 267.3,
+        "p99": null
+      },
+      "rps": {
+        "count": 10,
+        "mean": 1.07
+      },
+      "scenarioDuration": {
+        "min": 68.4,
+        "max": 278.5,
+        "median": 121.3,
+        "p95": 278.5,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "Stress Test JsonFromLinq API - where JSON is returned from LINQ": 10
+      },
+      "errors": {},
+      "codes": {
+        "200": 10
+      },
+      "matches": 0,
+      "latencies": [
+        [
+          1510671711495,
+          "12dfad7b-ce24-4bdd-9d4f-11a0f07e3713",
+          201260707,
+          200
+        ],
+        [
+          1510671712561,
+          "e6ebd15c-8ad7-414f-acd5-66cd30a57ea6",
+          267267187,
+          200
+        ],
+        [
+          1510671713483,
+          "c81b8ba5-e446-44fa-8733-eb22b871de00",
+          190273654,
+          200
+        ],
+        [
+          1510671714427,
+          "7d2761cf-9644-4ecf-912f-7429163f0b44",
+          133439610,
+          200
+        ],
+        [
+          1510671715404,
+          "65f05164-330a-4f11-b938-f414a692013d",
+          110511804,
+          200
+        ],
+        [
+          1510671716377,
+          "0fd31089-bd0d-42c0-bd26-abfbbff31e5a",
+          83022413,
+          200
+        ],
+        [
+          1510671717354,
+          "46803198-5c81-403c-92fc-7056df79929a",
+          59736610,
+          200
+        ],
+        [
+          1510671718383,
+          "c7efe9e1-d633-416a-b879-29f80bb1aea2",
+          94504996,
+          200
+        ],
+        [
+          1510671719378,
+          "97f1fd9f-c0cc-4028-b2cf-96e1ee1afbe2",
+          87049055,
+          200
+        ],
+        [
+          1510671720408,
+          "445ff9f0-6e8a-44b1-849c-7489310bb88d",
+          115353382,
+          200
+        ]
+      ],
+      "customStats": {
+        "response_bytes": {
+          "min": null,
+          "max": null,
+          "median": null,
+          "p95": null,
+          "p99": null
+        }
+      },
+      "concurrency": 1,
+      "pendingRequests": 1
+    },
+    {
+      "timestamp": "2017-11-14T15:02:10.666Z",
+      "scenariosCreated": 10,
+      "scenariosCompleted": 10,
+      "requestsCompleted": 10,
+      "latency": {
+        "min": 81.1,
+        "max": 169.5,
+        "median": 122.4,
+        "p95": 169.5,
+        "p99": null
+      },
+      "rps": {
+        "count": 10,
+        "mean": 1.07
+      },
+      "scenarioDuration": {
+        "min": 87.2,
+        "max": 174.9,
+        "median": 128.6,
+        "p95": 174.9,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "Stress Test JsonFromLinq API - where JSON is returned from LINQ": 10
+      },
+      "errors": {},
+      "codes": {
+        "200": 10
+      },
+      "matches": 0,
+      "latencies": [
+        [
+          1510671721453,
+          "6d2d13dd-1a61-4b7b-b543-11858432d25e",
+          169506555,
+          200
+        ],
+        [
+          1510671722439,
+          "4c828b74-9b1b-4b84-bfc6-303f2bb6f112",
+          145801995,
+          200
+        ],
+        [
+          1510671723402,
+          "412b8ce9-ce62-4b40-b2e5-2cd3d74a9de5",
+          120872773,
+          200
+        ],
+        [
+          1510671724400,
+          "d82c6cb4-6217-40b5-aab5-a2e23454f698",
+          104856522,
+          200
+        ],
+        [
+          1510671725399,
+          "94e35aec-8508-4a3e-954e-1d0420826ca7",
+          109965366,
+          200
+        ],
+        [
+          1510671726418,
+          "dc369b09-5a13-46cf-8b3e-7ef0c6f40408",
+          123989644,
+          200
+        ],
+        [
+          1510671727391,
+          "aa59a55a-7a18-44c8-811c-b87d6ae2976a",
+          96722769,
+          200
+        ],
+        [
+          1510671728418,
+          "c30d50c3-236d-4ef2-a281-35e603346b22",
+          127960863,
+          200
+        ],
+        [
+          1510671729415,
+          "083e4d5f-a96d-4088-9b78-d84c751de4b7",
+          129437190,
+          200
+        ],
+        [
+          1510671730361,
+          "a54e7824-2e7d-4489-b674-a686aeaa66f0",
+          81140055,
+          200
+        ]
+      ],
+      "customStats": {
+        "response_bytes": {
+          "min": null,
+          "max": null,
+          "median": null,
+          "p95": null,
+          "p99": null
+        }
+      },
+      "concurrency": 0,
+      "pendingRequests": 0
+    },
+    {
+      "timestamp": "2017-11-14T15:02:20.684Z",
+      "scenariosCreated": 9,
+      "scenariosCompleted": 9,
+      "requestsCompleted": 9,
+      "latency": {
+        "min": 42.5,
+        "max": 347.2,
+        "median": 232.4,
+        "p95": null,
+        "p99": null
+      },
+      "rps": {
+        "count": 9,
+        "mean": 0.96
+      },
+      "scenarioDuration": {
+        "min": 48.6,
+        "max": 357.3,
+        "median": 238.6,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "Stress Test JsonFromLinq API - where JSON is returned from LINQ": 9
+      },
+      "errors": {},
+      "codes": {
+        "200": 9
+      },
+      "matches": 0,
+      "latencies": [
+        [
+          1510671731475,
+          "398972e1-13fe-4276-af08-752146e21e4f",
+          193713625,
+          200
+        ],
+        [
+          1510671732610,
+          "91ef85bf-0d1f-4724-a964-2abf8e15808e",
+          317895406,
+          200
+        ],
+        [
+          1510671733336,
+          "49ea47b7-07a7-4730-8423-dba9da3b9a2f",
+          42467369,
+          200
+        ],
+        [
+          1510671734516,
+          "150f40c8-6073-46df-9281-d936f9900e4f",
+          232416692,
+          200
+        ],
+        [
+          1510671735486,
+          "8b723c11-d5f8-4533-b407-29de0c9c5cc2",
+          198712443,
+          200
+        ],
+        [
+          1510671736539,
+          "8e850431-063d-455b-bd12-2902cb67f6de",
+          242594147,
+          200
+        ],
+        [
+          1510671737464,
+          "ae7d1c18-1dc0-4ac9-95a2-0f984ce3f8ce",
+          169984843,
+          200
+        ],
+        [
+          1510671738577,
+          "18a4a390-62ee-454d-9e82-c167409c731b",
+          282799814,
+          200
+        ],
+        [
+          1510671739642,
+          "16f0cf11-549b-4e91-9a76-f31e41d419ae",
+          347204751,
+          200
+        ]
+      ],
+      "customStats": {
+        "response_bytes": {
+          "min": null,
+          "max": null,
+          "median": null,
+          "p95": null,
+          "p99": null
+        }
+      },
+      "concurrency": 0,
+      "pendingRequests": 0
+    },
+    {
+      "timestamp": "2017-11-14T15:02:30.697Z",
+      "scenariosCreated": 10,
+      "scenariosCompleted": 10,
+      "requestsCompleted": 10,
+      "latency": {
+        "min": 51.9,
+        "max": 325.1,
+        "median": 210.5,
+        "p95": 325.1,
+        "p99": null
+      },
+      "rps": {
+        "count": 10,
+        "mean": 0.96
+      },
+      "scenarioDuration": {
+        "min": 58.9,
+        "max": 332.8,
+        "median": 218.1,
+        "p95": 332.8,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "Stress Test JsonFromLinq API - where JSON is returned from LINQ": 10
+      },
+      "errors": {},
+      "codes": {
+        "200": 10
+      },
+      "matches": 0,
+      "latencies": [
+        [
+          1510671740513,
+          "38373dcd-7afd-4a8c-a888-cc23d43b6917",
+          218095588,
+          200
+        ],
+        [
+          1510671741511,
+          "ab89bb39-b853-4320-89b5-f109e1140b06",
+          217078253,
+          200
+        ],
+        [
+          1510671742532,
+          "398ced8d-3124-4504-91b1-0704ca4d5ce7",
+          237367886,
+          200
+        ],
+        [
+          1510671743346,
+          "e8b52792-46b9-4dd3-98fa-8acc578a4d61",
+          51857396,
+          200
+        ],
+        [
+          1510671744620,
+          "d44d4d64-2e7c-4f02-9d8a-970a4501734d",
+          325138272,
+          200
+        ],
+        [
+          1510671745458,
+          "0460f982-515b-4577-9451-398245ee42ee",
+          163398851,
+          200
+        ],
+        [
+          1510671746498,
+          "77508592-2962-4334-b070-b22874b99567",
+          213375943,
+          200
+        ],
+        [
+          1510671747362,
+          "4ef7705e-04c7-4d28-a5af-31dde2864c33",
+          73501012,
+          200
+        ],
+        [
+          1510671748413,
+          "521c0689-86f4-4882-8716-853207be10f0",
+          117544881,
+          200
+        ],
+        [
+          1510671749504,
+          "7a84eeef-ae66-4fb5-8228-44112018c257",
+          207642657,
+          200
+        ]
+      ],
+      "customStats": {
+        "response_bytes": {
+          "min": null,
+          "max": null,
+          "median": null,
+          "p95": null,
+          "p99": null
+        }
+      },
+      "concurrency": 0,
+      "pendingRequests": 0
+    },
+    {
+      "timestamp": "2017-11-14T15:02:35.795Z",
+      "scenariosCreated": 6,
+      "scenariosCompleted": 6,
+      "requestsCompleted": 6,
+      "latency": {
+        "min": 105.9,
+        "max": 225.3,
+        "median": 186.6,
+        "p95": null,
+        "p99": null
+      },
+      "rps": {
+        "count": 6,
+        "mean": 1.09
+      },
+      "scenarioDuration": {
+        "min": 112.4,
+        "max": 243.4,
+        "median": 193.9,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "Stress Test JsonFromLinq API - where JSON is returned from LINQ": 6
+      },
+      "errors": {},
+      "codes": {
+        "200": 6
+      },
+      "matches": 0,
+      "latencies": [
+        [
+          1510671750470,
+          "178ae76f-08c2-4f7d-925e-e562ff9bdccd",
+          189282184,
+          200
+        ],
+        [
+          1510671751512,
+          "d2fd4a19-9f08-4aa8-a779-a7b21385c6eb",
+          225329834,
+          200
+        ],
+        [
+          1510671752479,
+          "5a9a0a1b-8ec9-42a0-b225-e6e68a610aff",
+          183890062,
+          200
+        ],
+        [
+          1510671753460,
+          "ed7cbfd3-fb77-41c9-aee1-f0f19567ecd6",
+          179284138,
+          200
+        ],
+        [
+          1510671754496,
+          "fc5ce20c-1123-42f6-addf-0c64bdf09f7e",
+          201108394,
+          200
+        ],
+        [
+          1510671755401,
+          "5564f52f-a93e-4721-b575-452364d8f481",
+          105886173,
+          200
+        ]
+      ],
+      "customStats": {
+        "response_bytes": {
+          "min": null,
+          "max": null,
+          "median": null,
+          "p95": null,
+          "p99": null
+        }
+      },
+      "concurrency": 0,
+      "pendingRequests": 0
+    }
+  ]
+}

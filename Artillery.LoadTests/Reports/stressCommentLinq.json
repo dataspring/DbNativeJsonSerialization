@@ -1,0 +1,1013 @@
+{
+  "aggregate": {
+    "timestamp": "2017-11-14T15:06:00.574Z",
+    "scenariosCreated": 70,
+    "scenariosCompleted": 70,
+    "requestsCompleted": 70,
+    "latency": {
+      "min": 428.3,
+      "max": 67582.1,
+      "median": 44606,
+      "p95": 56967,
+      "p99": 66226.2
+    },
+    "rps": {
+      "count": 70,
+      "mean": 0.56
+    },
+    "scenarioDuration": {
+      "min": 430.4,
+      "max": 67586.9,
+      "median": 44609.9,
+      "p95": 56968.7,
+      "p99": 66231.8
+    },
+    "scenarioCounts": {
+      "Stress Test JsonFromLinq API - where JSON is returned from LINQ": 70
+    },
+    "errors": {},
+    "codes": {
+      "200": 1,
+      "500": 69
+    },
+    "matches": 0,
+    "customStats": {
+      "response_bytes": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      }
+    },
+    "phases": [
+      {
+        "duration": 30,
+        "arrivalCount": 10,
+        "name": "Warm up phase"
+      },
+      {
+        "duration": 60,
+        "arrivalRate": 1,
+        "name": "High load phase"
+      }
+    ]
+  },
+  "intermediate": [
+    {
+      "timestamp": "2017-11-14T15:04:01.524Z",
+      "scenariosCreated": 3,
+      "scenariosCompleted": 1,
+      "requestsCompleted": 1,
+      "latency": {
+        "min": 3213.1,
+        "max": 3213.1,
+        "median": 3213.1,
+        "p95": null,
+        "p99": null
+      },
+      "rps": {
+        "count": 3,
+        "mean": 0.48
+      },
+      "scenarioDuration": {
+        "min": 3251.1,
+        "max": 3251.1,
+        "median": 3251.1,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "Stress Test JsonFromLinq API - where JSON is returned from LINQ": 3
+      },
+      "errors": {},
+      "codes": {
+        "200": 1
+      },
+      "matches": 0,
+      "latencies": [
+        [
+          1510671838424,
+          "3192a034-c8ad-4e57-a2ce-605e48d53f75",
+          3213053664,
+          200
+        ]
+      ],
+      "customStats": {
+        "response_bytes": {
+          "min": null,
+          "max": null,
+          "median": null,
+          "p95": null,
+          "p99": null
+        }
+      },
+      "concurrency": 2,
+      "pendingRequests": 7
+    },
+    {
+      "timestamp": "2017-11-14T15:04:11.544Z",
+      "scenariosCreated": 3,
+      "scenariosCompleted": 0,
+      "requestsCompleted": 0,
+      "latency": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "rps": {
+        "count": 3,
+        "mean": 0.41
+      },
+      "scenarioDuration": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "Stress Test JsonFromLinq API - where JSON is returned from LINQ": 3
+      },
+      "errors": {},
+      "codes": {},
+      "matches": 0,
+      "latencies": [],
+      "customStats": {},
+      "concurrency": 5,
+      "pendingRequests": 35
+    },
+    {
+      "timestamp": "2017-11-14T15:04:21.550Z",
+      "scenariosCreated": 3,
+      "scenariosCompleted": 0,
+      "requestsCompleted": 0,
+      "latency": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "rps": {
+        "count": 3,
+        "mean": 0.36
+      },
+      "scenarioDuration": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "Stress Test JsonFromLinq API - where JSON is returned from LINQ": 3
+      },
+      "errors": {},
+      "codes": {},
+      "matches": 0,
+      "latencies": [],
+      "customStats": {},
+      "concurrency": 8,
+      "pendingRequests": 68
+    },
+    {
+      "timestamp": "2017-11-14T15:04:31.560Z",
+      "scenariosCreated": 10,
+      "scenariosCompleted": 0,
+      "requestsCompleted": 0,
+      "latency": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "rps": {
+        "count": 10,
+        "mean": 1.07
+      },
+      "scenarioDuration": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "Stress Test JsonFromLinq API - where JSON is returned from LINQ": 10
+      },
+      "errors": {},
+      "codes": {},
+      "matches": 0,
+      "latencies": [],
+      "customStats": {},
+      "concurrency": 18,
+      "pendingRequests": 135
+    },
+    {
+      "timestamp": "2017-11-14T15:04:41.567Z",
+      "scenariosCreated": 10,
+      "scenariosCompleted": 1,
+      "requestsCompleted": 1,
+      "latency": {
+        "min": 33649.8,
+        "max": 33649.8,
+        "median": 33649.8,
+        "p95": null,
+        "p99": null
+      },
+      "rps": {
+        "count": 10,
+        "mean": 1.06
+      },
+      "scenarioDuration": {
+        "min": 33651.9,
+        "max": 33651.9,
+        "median": 33651.9,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "Stress Test JsonFromLinq API - where JSON is returned from LINQ": 10
+      },
+      "errors": {},
+      "codes": {
+        "500": 1
+      },
+      "matches": 0,
+      "latencies": [
+        [
+          1510671877825,
+          "f76b7abc-5696-4f04-b730-8f4ecd6ab3d7",
+          33649826174,
+          500
+        ]
+      ],
+      "customStats": {
+        "response_bytes": {
+          "min": null,
+          "max": null,
+          "median": null,
+          "p95": null,
+          "p99": null
+        }
+      },
+      "concurrency": 27,
+      "pendingRequests": 231
+    },
+    {
+      "timestamp": "2017-11-14T15:04:51.591Z",
+      "scenariosCreated": 10,
+      "scenariosCompleted": 4,
+      "requestsCompleted": 4,
+      "latency": {
+        "min": 32627.8,
+        "max": 47654.5,
+        "median": 35111.1,
+        "p95": null,
+        "p99": null
+      },
+      "rps": {
+        "count": 10,
+        "mean": 1.06
+      },
+      "scenarioDuration": {
+        "min": 32631.9,
+        "max": 47668,
+        "median": 35114.7,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "Stress Test JsonFromLinq API - where JSON is returned from LINQ": 10
+      },
+      "errors": {},
+      "codes": {
+        "500": 4
+      },
+      "matches": 0,
+      "latencies": [
+        [
+          1510671882791,
+          "e310b8dd-155f-49ea-8dd8-f4b53e5370c0",
+          35625367850,
+          500
+        ],
+        [
+          1510671882791,
+          "d04b4e45-4308-4509-8698-3e9dc75b43e6",
+          32627841394,
+          500
+        ],
+        [
+          1510671885861,
+          "e6458200-928d-432a-8a7a-b29c236da6a7",
+          47654497376,
+          500
+        ],
+        [
+          1510671890772,
+          "d76cebcb-59a8-44a1-bcf4-9707b563ba2b",
+          34596818427,
+          500
+        ]
+      ],
+      "customStats": {
+        "response_bytes": {
+          "min": null,
+          "max": null,
+          "median": null,
+          "p95": null,
+          "p99": null
+        }
+      },
+      "concurrency": 33,
+      "pendingRequests": 300
+    },
+    {
+      "timestamp": "2017-11-14T15:05:01.604Z",
+      "scenariosCreated": 10,
+      "scenariosCompleted": 0,
+      "requestsCompleted": 0,
+      "latency": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "rps": {
+        "count": 10,
+        "mean": 1.06
+      },
+      "scenarioDuration": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "Stress Test JsonFromLinq API - where JSON is returned from LINQ": 10
+      },
+      "errors": {},
+      "codes": {},
+      "matches": 0,
+      "latencies": [],
+      "customStats": {},
+      "concurrency": 43,
+      "pendingRequests": 385
+    },
+    {
+      "timestamp": "2017-11-14T15:05:11.614Z",
+      "scenariosCreated": 10,
+      "scenariosCompleted": 1,
+      "requestsCompleted": 1,
+      "latency": {
+        "min": 67582.1,
+        "max": 67582.1,
+        "median": 67582.1,
+        "p95": null,
+        "p99": null
+      },
+      "rps": {
+        "count": 10,
+        "mean": 1.06
+      },
+      "scenarioDuration": {
+        "min": 67586.9,
+        "max": 67586.9,
+        "median": 67586.9,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "Stress Test JsonFromLinq API - where JSON is returned from LINQ": 10
+      },
+      "errors": {},
+      "codes": {
+        "500": 1
+      },
+      "matches": 0,
+      "latencies": [
+        [
+          1510671908755,
+          "1e852f80-c16a-461f-82ac-e6877b043386",
+          67582120851,
+          500
+        ]
+      ],
+      "customStats": {
+        "response_bytes": {
+          "min": null,
+          "max": null,
+          "median": null,
+          "p95": null,
+          "p99": null
+        }
+      },
+      "concurrency": 52,
+      "pendingRequests": 482
+    },
+    {
+      "timestamp": "2017-11-14T15:05:21.617Z",
+      "scenariosCreated": 9,
+      "scenariosCompleted": 28,
+      "requestsCompleted": 28,
+      "latency": {
+        "min": 428.3,
+        "max": 60802.5,
+        "median": 42234.7,
+        "p95": 55404.4,
+        "p99": null
+      },
+      "rps": {
+        "count": 9,
+        "mean": 0.95
+      },
+      "scenarioDuration": {
+        "min": 430.4,
+        "max": 60811.3,
+        "median": 42243,
+        "p95": 55407.1,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "Stress Test JsonFromLinq API - where JSON is returned from LINQ": 9
+      },
+      "errors": {},
+      "codes": {
+        "500": 28
+      },
+      "matches": 0,
+      "latencies": [
+        [
+          1510671913977,
+          "f41c401b-0074-4e14-9095-1c1c1ee7bbbc",
+          51799856801,
+          500
+        ],
+        [
+          1510671913977,
+          "f11c725b-084c-45ed-9b81-2a10ff295e6b",
+          48800260369,
+          500
+        ],
+        [
+          1510671913977,
+          "2dd9327f-7afe-4011-97b9-657f30721a5f",
+          54804637618,
+          500
+        ],
+        [
+          1510671913977,
+          "7521d1f3-6cdc-46a3-af39-9aa93db05865",
+          50801526906,
+          500
+        ],
+        [
+          1510671913977,
+          "d59e8ee0-5c49-4f5c-a19c-1db6d8760bd7",
+          44805841752,
+          500
+        ],
+        [
+          1510671913977,
+          "e3f18b57-115a-4fd8-8740-5cfc09f6750d",
+          47806644371,
+          500
+        ],
+        [
+          1510671913977,
+          "fab5e763-9769-421f-b6df-924bbff48585",
+          60802495796,
+          500
+        ],
+        [
+          1510671914187,
+          "574be3f1-9c64-4c91-ac5d-28e232206123",
+          47021780328,
+          500
+        ],
+        [
+          1510671914187,
+          "016e2741-00ec-459e-a48d-a7c24634fc4c",
+          43021666196,
+          500
+        ],
+        [
+          1510671914619,
+          "9840a8db-1139-4c7b-af79-932f03b7c8ed",
+          44446029109,
+          500
+        ],
+        [
+          1510671915259,
+          "f4b2f939-2134-40f9-b681-9bab719721b1",
+          51081857691,
+          500
+        ],
+        [
+          1510671915597,
+          "2029166d-ae1a-498e-b491-a0d1e6958139",
+          21419758221,
+          500
+        ],
+        [
+          1510671915601,
+          "0ce99cbd-c77d-43ed-8fe0-0baef57d264f",
+          18424206905,
+          500
+        ],
+        [
+          1510671915602,
+          "4a3d0f8f-fe84-465f-8c8a-6c0aa089ac09",
+          15422839785,
+          500
+        ],
+        [
+          1510671915603,
+          "f6d1d004-e4c0-4d8c-87d9-823b2a099d48",
+          25423875184,
+          500
+        ],
+        [
+          1510671915604,
+          "9543b03a-4e7f-4d8b-a14c-d1d53c7d1276",
+          428270909,
+          500
+        ],
+        [
+          1510671915604,
+          "28fa9bdc-0c4a-4524-8911-63ee052345aa",
+          16429309181,
+          500
+        ],
+        [
+          1510671915604,
+          "535acbd8-d054-491c-9940-ad53ee2ee35d",
+          19428086573,
+          500
+        ],
+        [
+          1510671915604,
+          "1ff51ac0-c555-4c0f-a548-ed4d4c473c44",
+          7429800195,
+          500
+        ],
+        [
+          1510671915604,
+          "bb86ea94-a863-49bd-af75-288f25f130dd",
+          17431466605,
+          500
+        ],
+        [
+          1510671915604,
+          "8742fadc-3f5e-46f8-9a81-db9a04f4bad5",
+          20432387050,
+          500
+        ],
+        [
+          1510671915784,
+          "28a6a39d-b21c-40dc-91b0-857e136e1d00",
+          42617126944,
+          500
+        ],
+        [
+          1510671916108,
+          "3c4f9580-47aa-4753-85e7-2c48ef84e549",
+          47931867298,
+          500
+        ],
+        [
+          1510671916564,
+          "e96b6e50-d2f3-4943-80d9-04e25d8a8ea8",
+          25387266728,
+          500
+        ],
+        [
+          1510671917188,
+          "72726204-0d07-44d2-92e3-0355a547597e",
+          15019817914,
+          500
+        ],
+        [
+          1510671917696,
+          "d1416201-8d9f-4691-be4c-2aa17c51028b",
+          1522874435,
+          500
+        ],
+        [
+          1510671918032,
+          "fd784c14-98df-4b1c-a63b-f3d5abed25b9",
+          41852307848,
+          500
+        ],
+        [
+          1510671918042,
+          "03bd086d-7153-4016-9bab-c0fdb9a91aa2",
+          45867476320,
+          500
+        ]
+      ],
+      "customStats": {
+        "response_bytes": {
+          "min": null,
+          "max": null,
+          "median": null,
+          "p95": null,
+          "p99": null
+        }
+      },
+      "concurrency": 54,
+      "pendingRequests": 360
+    },
+    {
+      "timestamp": "2017-11-14T15:05:31.638Z",
+      "scenariosCreated": 2,
+      "scenariosCompleted": 6,
+      "requestsCompleted": 6,
+      "latency": {
+        "min": 6242.6,
+        "max": 53292.7,
+        "median": 48338.8,
+        "p95": null,
+        "p99": null
+      },
+      "rps": {
+        "count": 2,
+        "mean": 0.19
+      },
+      "scenarioDuration": {
+        "min": 6244.6,
+        "max": 53294.9,
+        "median": 48340.5,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "Stress Test JsonFromLinq API - where JSON is returned from LINQ": 2
+      },
+      "errors": {},
+      "codes": {
+        "500": 6
+      },
+      "matches": 0,
+      "latencies": [
+        [
+          1510671924267,
+          "e521595a-031d-4b14-a470-0e757dd6d6b3",
+          46101769210,
+          500
+        ],
+        [
+          1510671927415,
+          "9cb12093-c94f-4c3a-997c-1029136a2196",
+          52235998712,
+          500
+        ],
+        [
+          1510671927419,
+          "a025f4c4-420c-43c2-b51b-42b7d751808d",
+          6242584704,
+          500
+        ],
+        [
+          1510671927469,
+          "c35b45f7-5b9d-4af9-a84f-216d2fd1765b",
+          53292703435,
+          500
+        ],
+        [
+          1510671928585,
+          "a12cdfdd-6646-4b0e-9f7e-d49c56813b6c",
+          49409797124,
+          500
+        ],
+        [
+          1510671930442,
+          "e2f88d3f-2f75-47c7-92db-9172b6130c91",
+          47267720841,
+          500
+        ]
+      ],
+      "customStats": {
+        "response_bytes": {
+          "min": null,
+          "max": null,
+          "median": null,
+          "p95": null,
+          "p99": null
+        }
+      },
+      "concurrency": 35,
+      "pendingRequests": 326
+    },
+    {
+      "timestamp": "2017-11-14T15:05:41.648Z",
+      "scenariosCreated": 0,
+      "scenariosCompleted": 6,
+      "requestsCompleted": 6,
+      "latency": {
+        "min": 52645.9,
+        "max": 56779.9,
+        "median": 56205.9,
+        "p95": null,
+        "p99": null
+      },
+      "rps": {
+        "count": 0,
+        "mean": null
+      },
+      "scenarioDuration": {
+        "min": 52648.9,
+        "max": 56783.2,
+        "median": 56208.9,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {},
+      "errors": {},
+      "codes": {
+        "500": 6
+      },
+      "matches": 0,
+      "latencies": [
+        [
+          1510671933274,
+          "6d8d50ef-42ce-4ab0-b212-bbaee65a2d8f",
+          56095710771,
+          500
+        ],
+        [
+          1510671936481,
+          "3dd5c507-a949-40aa-9b29-1fb1c5e2bffe",
+          56316105422,
+          500
+        ],
+        [
+          1510671937600,
+          "092e0bb8-67a5-4ada-973c-0006f34a2169",
+          56422200153,
+          500
+        ],
+        [
+          1510671938197,
+          "c76ed1b0-d750-4fbc-86f5-603869a3519b",
+          53030174778,
+          500
+        ],
+        [
+          1510671938823,
+          "475bb76e-49ff-45e0-9426-7ae153d86f8e",
+          52645868093,
+          500
+        ],
+        [
+          1510671938958,
+          "19505675-be7a-4a33-9e57-e0f45ae4182b",
+          56779855373,
+          500
+        ]
+      ],
+      "customStats": {
+        "response_bytes": {
+          "min": null,
+          "max": null,
+          "median": null,
+          "p95": null,
+          "p99": null
+        }
+      },
+      "concurrency": 29,
+      "pendingRequests": 266
+    },
+    {
+      "timestamp": "2017-11-14T15:05:51.663Z",
+      "scenariosCreated": 0,
+      "scenariosCompleted": 9,
+      "requestsCompleted": 9,
+      "latency": {
+        "min": 37142,
+        "max": 57887.9,
+        "median": 54281,
+        "p95": null,
+        "p99": null
+      },
+      "rps": {
+        "count": 0,
+        "mean": null
+      },
+      "scenarioDuration": {
+        "min": 37145.3,
+        "max": 57889.9,
+        "median": 54284.2,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {},
+      "errors": {},
+      "codes": {
+        "500": 9
+      },
+      "matches": 0,
+      "latencies": [
+        [
+          1510671941937,
+          "37b522bb-5f89-4124-a6e0-08065e909761",
+          53761079426,
+          500
+        ],
+        [
+          1510671942064,
+          "048ec168-2af0-4136-871e-7870f8f381b8",
+          57887893222,
+          500
+        ],
+        [
+          1510671944144,
+          "0ea72c0e-8799-4b45-b7c9-fe523ebfb874",
+          56966987522,
+          500
+        ],
+        [
+          1510671944145,
+          "2f7fb5c7-8a63-40de-9919-829ee35200f5",
+          54968136232,
+          500
+        ],
+        [
+          1510671946459,
+          "c4309fa9-84e4-4af7-8183-7daa15bb25e8",
+          54280986018,
+          500
+        ],
+        [
+          1510671949076,
+          "f3d436d0-91b5-4856-b086-15741f3cad3b",
+          45901945007,
+          500
+        ],
+        [
+          1510671949693,
+          "29345cdd-bb43-4735-9680-b9eca96d96f0",
+          56515159850,
+          500
+        ],
+        [
+          1510671950319,
+          "421e3122-2e7f-46bd-9f09-645037b3af33",
+          37141995405,
+          500
+        ],
+        [
+          1510671950399,
+          "3c55c5d8-53d8-409c-9281-6acb5c472709",
+          44221102434,
+          500
+        ]
+      ],
+      "customStats": {
+        "response_bytes": {
+          "min": null,
+          "max": null,
+          "median": null,
+          "p95": null,
+          "p99": null
+        }
+      },
+      "concurrency": 23,
+      "pendingRequests": 187
+    },
+    {
+      "timestamp": "2017-11-14T15:06:00.547Z",
+      "scenariosCreated": 0,
+      "scenariosCompleted": 14,
+      "requestsCompleted": 14,
+      "latency": {
+        "min": 36266.5,
+        "max": 52961.3,
+        "median": 40334.6,
+        "p95": 51815.6,
+        "p99": null
+      },
+      "rps": {
+        "count": 0,
+        "mean": null
+      },
+      "scenarioDuration": {
+        "min": 36269.5,
+        "max": 52963.3,
+        "median": 40337.3,
+        "p95": 51817.6,
+        "p99": null
+      },
+      "scenarioCounts": {},
+      "errors": {},
+      "codes": {
+        "500": 14
+      },
+      "matches": 0,
+      "latencies": [
+        [
+          1510671951398,
+          "4e02766e-2747-423b-b2d2-7dd44cc9f533",
+          47233007879,
+          500
+        ],
+        [
+          1510671951470,
+          "d75ee6fe-2a3e-4173-9b14-6f2c6f6d305a",
+          39293636607,
+          500
+        ],
+        [
+          1510671951942,
+          "68f312a3-b58b-48b6-9552-9966d69f2482",
+          44765925520,
+          500
+        ],
+        [
+          1510671951942,
+          "e60995cd-6389-412a-929c-8d9ee40688e3",
+          37766699401,
+          500
+        ],
+        [
+          1510671951942,
+          "7b258b48-f4a1-4f68-9fd2-f4512dab5232",
+          46769230422,
+          500
+        ],
+        [
+          1510671951942,
+          "6292bfb9-2b07-4897-951a-0fbfa4f27a7d",
+          42773031264,
+          500
+        ],
+        [
+          1510671952554,
+          "ff6f2888-4718-48d3-a952-5e868117b73f",
+          41375496761,
+          500
+        ],
+        [
+          1510671952823,
+          "6a31d8db-6e41-4fd1-b523-3b20e004832d",
+          42643823159,
+          500
+        ],
+        [
+          1510671954139,
+          "490a15dc-901c-4deb-af21-593b92fdb905",
+          52961283385,
+          500
+        ],
+        [
+          1510671954532,
+          "731d0c5a-c304-4702-bf4f-24db2e0f63c7",
+          36339364539,
+          500
+        ],
+        [
+          1510671954532,
+          "b763ab0c-a1e2-46c1-a7ff-317d6384bdf5",
+          37363319123,
+          500
+        ],
+        [
+          1510671955465,
+          "a9370bb0-a94a-4f4c-a88b-a5ff8af0bbeb",
+          36286535790,
+          500
+        ],
+        [
+          1510671956445,
+          "eea43b4c-9d65-4bf5-8bee-611063468a64",
+          36266490844,
+          500
+        ],
+        [
+          1510671960445,
+          "135fec12-86f4-4673-b5c5-8d8c05ac5ca7",
+          38272482363,
+          500
+        ]
+      ],
+      "customStats": {
+        "response_bytes": {
+          "min": null,
+          "max": null,
+          "median": null,
+          "p95": null,
+          "p99": null
+        }
+      },
+      "concurrency": 12,
+      "pendingRequests": 34
+    }
+  ]
+}
